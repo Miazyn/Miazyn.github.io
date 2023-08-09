@@ -9,6 +9,11 @@ header {
     background-color: #333;
     color: white;
     padding: 10px 0;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    top: 0px;
+    left: 0px;
 }
 
 nav {
@@ -36,11 +41,11 @@ nav {
 /* Styling for the main section */
 .main {
     background-image: url('path-to-your-image.jpg');
-    background-color: #070D0D;
+    background-color: #3C3744;
     background-size: cover;
     text-align: center;
     padding: 150px 0;
-    color: gray;
+    color:#F6E8EA;;
 }
 
     .main h1 {
@@ -51,6 +56,7 @@ nav {
     .main p {
         font-size: 1.25rem;
         margin-bottom: 30px;
+        color: #F6E8EA;
     }
 
 .cta-button {
@@ -69,7 +75,7 @@ nav {
 
 .cta-box {
     display: inline-block;
-    background-color: rgba(45,45,45, 0.5);
+    background-color: rgba(0, 0, 5, 0.3);
     border-radius: 5px;
     margin-top: 20px;
 }
@@ -79,10 +85,10 @@ nav {
     text-align: center;
 }
 
-.cta-text-box p {
-    font-size: 1rem;
-    color: white;
-}
+    .cta-text-box p {
+        font-size: 1rem;
+        color: #F6E8EA;
+    }
 
 /* Styling for the portfolio section */
 .portfolio-section {

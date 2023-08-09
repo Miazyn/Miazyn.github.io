@@ -33,21 +33,22 @@ nav {
     color: white;
 }
 
-/* Styling for the hero section */
-.hero {
+/* Styling for the main section */
+.main {
     background-image: url('path-to-your-image.jpg');
+    background-color: #070D0D;
     background-size: cover;
     text-align: center;
     padding: 150px 0;
-    color: white;
+    color: gray;
 }
 
-    .hero h1 {
+    .main h1 {
         font-size: 2.5rem;
         margin-bottom: 20px;
     }
 
-    .hero p {
+    .main p {
         font-size: 1.25rem;
         margin-bottom: 30px;
     }
@@ -68,7 +69,7 @@ nav {
 
 .cta-box {
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(45,45,45, 0.5);
     border-radius: 5px;
     margin-top: 20px;
 }
@@ -81,4 +82,98 @@ nav {
 .cta-text-box p {
     font-size: 1rem;
     color: white;
+}
+
+/* Styling for the portfolio section */
+.portfolio-section {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+}
+
+.project {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+}
+
+    .project img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+
+    .project h3 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+
+    .project p {
+        font-size: 1rem;
+        color: #666;
+        margin-bottom: 10px;
+    }
+
+.project-link {
+    display: inline-block;
+    background-color: #4285f4;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+    .project-link:hover {
+        background-color: #3367d6;
+    }
+
+/* Styling for the about section */
+.about-section {
+    padding: 50px 0;
+}
+
+    .about-section h2 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+/* Styling for the contact section */
+.contact-section {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+    text-align: center;
+}
+
+    .contact-section h2 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+.contact-content-box {
+    display: flex;
+    justify-content: center;
+}
+
+.icon-box {
+    text-align: center;
+    align-items: center;
+
+}
+
+.icons {
+    margin-right: 10px;
+    height: 30px;
+    width: auto;
+}
+
+.icon-box a {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    justify-content: center;
 }
